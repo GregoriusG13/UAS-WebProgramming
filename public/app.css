@@ -1,0 +1,268 @@
+/* font arial */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.section-2 {
+    background-color: yellow;
+    display: flex;
+}
+.section-2 .nav-list {
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-list li {
+    margin-right: 20px;
+}
+.nav-list a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #aeead3;
+    color: black;
+    padding: 0 20px;
+}
+.navbar .header {
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
+}
+.navbar .buttons {
+    display: flex;
+}
+.navbar .buttons a {
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 3px;
+    background-color: #f5db56;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #aeead3;
+    color: black;
+    padding: 0 20px;
+}
+
+/* make circle */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.circle {
+    width: 400px;
+    height: 400px;
+    border: 10px solid yellow;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.circle h1 {
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+
+/* login page */
+
+.form-container {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    height: 100vh;
+    flex-direction: column;
+    padding: 30px;
+}
+
+/* form {
+    width: 300px;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+} */
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    width: 40%;
+    padding: 10px;
+    background-color: yellow;
+    color: #333;
+    border: none;
+}
+a {
+    margin-top: 20px;
+    display: block;
+}
+
+/* regist */
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.form-col {
+    width: 45%;
+}
+.form-col input[type="text"],
+.form-col select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    border-radius: 5px;
+}
+input[type="email"],
+input[type="password"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    border-radius: 5px;
+}
+
+/* card */
+
+.card-list {
+    margin-top: 40px;
+    height: 80vh;
+}
+
+.card {
+    width: 250px;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.card h3 {
+    margin-top: 20px;
+}
+.card a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination a {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pagination span {
+    padding: 10px 20px;
+}
+
+.pagination .disabled {
+    background-color: gray;
+    color: #ccc;
+    pointer-events: none;
+}
+
+/* detail */
+
+.product-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-image {
+    width: 30%;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.product-info {
+    width: 70%;
+    text-align: left;
+}
+
+.button {
+    text-align: right;
+}
+
+button {
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+/* cart */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: lightgray;
+}
+
+td {
+    border-bottom: 1px solid lightgray;
+}
